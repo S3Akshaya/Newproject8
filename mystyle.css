@@ -1,0 +1,148 @@
+body{
+    background-color: rgb(217, 221, 224);
+    
+}
+
+
+
+
+.heart{
+    width:7%;
+    height: auto;
+}
+.main{
+    font-size: 20px;
+    font-weight: bold;
+    font-style: verdana;
+}
+.order{
+    color: white;
+    background-color:rgb(230, 18, 99);
+    box-shadow: 0cqmin;
+    border-radius:25px;
+    border-style: solid;
+    border-width: 1px;
+    border-color:palevioletred;
+    height: 40px;
+    width:80px;
+    font-weight: bold;
+    font-size: 15px;
+    cursor: pointer;
+    width:130px;
+}
+.order{
+   display:block;
+   margin:auto;
+   margin-bottom: 20px;
+
+}
+.order:hover{
+    color:white;
+    background-color:green;
+    border-color:green;
+
+}
+.order:active{
+    background-color:blue;
+
+
+}
+
+
+
+
+
+.sa,.nal{
+    color:rgb(230, 18, 99);
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    color:black;
+    font-size: 22px;
+}
+ul{
+    display: flex;
+}
+ul li{
+    list-style-type:disc;
+    margin-inline: 40px;
+    cursor: pointer;
+}
+.h:hover{
+    color:rgb(230, 18, 99);
+    opacity: 0.7s;
+    transition: color 0.5s;
+}
+
+.log{
+    background-color: white;
+    color:rgb(230, 18, 99);
+    border-radius: 25px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: rgb(230, 18, 99);
+    height: 40px;
+    width:80px;
+    font-weight: bold;
+    font-size: 15px;
+    cursor: pointer;
+    margin-right: 10px;
+}
+
+.sign{
+    background-color: white;
+    color:rgb(230, 18, 99);
+    border-radius: 25px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: rgb(230, 18, 99);
+    height: 40px;
+    width:80px;
+    font-weight: bold;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.log:hover,
+.sign:hover{
+    color:white;
+    background-color: rgb(230, 18, 99);
+}
+.log:active,
+.sign:active{
+    background-color:pink;
+}
+
+
+
+
+
+.food1
+{
+    transition: .2s;
+    width:270px;
+    border:3px solid black;
+    border-radius:12px;
+    padding:20px;
+    margin-left: 15px;
+    margin-bottom: 15px;
+}
+
+.food1:hover{
+    transform:rotate(4deg);
+}
+
+.b1{
+    width:100%;
+    border-radius:15px;
+}
+
+.flex{
+    display: flex;
+    justify-content: center;
+    float: right;
+    
+  
+}
